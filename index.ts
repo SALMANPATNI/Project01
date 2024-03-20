@@ -1,4 +1,4 @@
-#! /usr/bin/env node
++#! /usr/bin/env node
 
 import inquirer from "inquirer";
 
@@ -24,6 +24,6 @@ else if (answer.operator === "multiplication") {
 
 else if (answer.operator === "division") {
     console.log(answer.firstnumber / answer.secondnumber);
-} else{
+} else if {
     console.log("please select valid operator")
 }
